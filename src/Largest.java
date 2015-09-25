@@ -8,7 +8,7 @@ public class Largest {
         int max=Integer.MIN_VALUE;
 
 
-        for (index=0; index <list.length-1; index++){
+        for (index=0; index <list.length; index++){
             if(list[index] > max){
                 max = list[index];
             }
